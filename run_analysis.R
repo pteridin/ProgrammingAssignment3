@@ -81,5 +81,5 @@ tidy_mean_per_activity_subject <- tidy_mean_stddev_per_measurement %>%
                                       summarize_all(mean, na.rm=T)
 
 # Step 6: Write results into CSV files
-write.csv(tidy_mean_stddev_per_measurement,"tidy_mean_stddev_per_measurement.csv")
-write.csv(tidy_mean_per_activity_subject,"tidy_mean_per_activity_subject.csv")
+write.table(tidy_mean_stddev_per_measurement,"tidy_mean_stddev_per_measurement.txt", row.names = F)
+write.table(tidy_mean_per_activity_subject,"tidy_mean_per_activity_subject.txt", row.names = F)

@@ -20,10 +20,10 @@ This should be done with an R script called ```run_analysis.R``` that does the f
 
 ## Output
 
-### tidy_mean_stddev_per_measurement.csv
+### tidy_mean_stddev_per_measurement.txt
 Extracted mean and standard deviation for each measurement.
 
-### tidy_mean_per_activity_subject.csv
+### tidy_mean_per_activity_subject.txt
 Extracted mean of each variable for each activity and each subject.
 
 ## Dependencies
